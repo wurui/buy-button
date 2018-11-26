@@ -2,9 +2,8 @@
     <xsl:template match="/root" name="wurui.buy-button">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-buy-button" ox-mod="buy-button">
-            <h1>
-                This is mod buy-button;
-            </h1>
+        	<xsl:variable name="product" select="data/ecom-products/i[1]"/>
+            <a href="{$product/LINK/buy}" class="bt-buy">立即购买</a>
         </div>
     </xsl:template>
 </xsl:stylesheet>

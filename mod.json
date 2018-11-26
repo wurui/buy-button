@@ -2,9 +2,16 @@
   "RULE_VERSION":"20180724",
   "name": "buy-button",
   "apiDependencies": [
-  {
-    "name": "ecom-products"
-  }
-]
+	  {
+	    "name": "ecom-products",
+	    "selector":"_id",
+	    "LINK":[
+	    	{
+	    		"name":"buy",
+	    		"title":"下单页面",
+	    	}
+	    ]
+	  }
+	]
 }
 
