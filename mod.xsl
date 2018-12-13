@@ -3,7 +3,7 @@
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-buy-button" ox-mod="buy-button">
         	<xsl:variable name="product" select="data/ecom-products/i[1]"/>
-            <a href="{$product/LINK/buy}" class="bt-buy">立即购买</a>
+            <a href="{$product/LINK/buy}" class="bt-buy skin-bgcolor">立即购买</a>
         </div>
     </xsl:template>
 </xsl:stylesheet>
